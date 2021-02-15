@@ -4,4 +4,5 @@ provider "azurerm" {
 
 module terraform-azure-resourcegroup {
     source = "./modules/terraform-azure-resourcegroup"
+    resgroname = var.resourcegroupname
 }
